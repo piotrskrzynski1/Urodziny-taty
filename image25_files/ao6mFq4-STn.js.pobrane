@@ -1,4 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("EbFetchTimeoutMsForMLv2",["DateConsts","gkx","qex"],(function(a,b,c,d,e,f,g){"use strict";var h=10,i=15,j=!c("gkx")("6581");function a(a){return k(a)*d("DateConsts").MS_PER_SEC}function k(a){return j?h:(a=l(a))!=null?a:i}function l(a){switch(a){case"exposure_logging_disabled":return c("qex")._("464");case"exposure_logging_enabled":return c("qex")._("229");default:a;return null}}g["default"]=a}),98);
-__d("MAWMessageIntegrityEBFetchStatus",[],(function(a,b,c,d,e,f){"use strict";var g=new Set();function a(a){return g.has(a)}function b(a){g.add(a)}f.hasEBFailure=a;f.recordEBFailure=b}),66);
